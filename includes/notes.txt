@@ -1,0 +1,5 @@
+When a part of the timeline is clicked, it opens a lightbox that plays a video or shows an image, along with a title and a few paragraphs about it.
+
+image flips to show process when clicked
+
+hover over papers on side, gives more info

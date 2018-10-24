@@ -1,0 +1,18 @@
+plugins, google charts
+hover / click events, animate
+
+repository
+
+authoring part due Oct 29-Nov2
+
+ex
+
+
+scrollspy - bootstrap or foundation
+waypoint.js
+
+the data that lies beneath
+lottie design 3d plugin
+
+https://lucidworks.com/darkdata/
+https://airbnb.design/introducing-lottie/
