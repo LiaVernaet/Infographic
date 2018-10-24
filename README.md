@@ -1,5 +1,6 @@
 Interactive Infographic
 
-Lia Vernaet
+Author: Lia Vernaet
+Languages: HTML, CSS, JS
 
-This project is an interactive webpage about the history and process of animation.
+This project is an interactive webpage about the history and process of animation using SVGs.
