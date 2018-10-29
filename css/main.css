@@ -6,4 +6,114 @@
 {
 	display: none;
 }
+body {
+	background-image: url("../images/bg2.png");
+}
 
+#container {
+	width: 2400px;
+	margin-left: -450px;
+	margin-right: 850px;
+
+}
+
+#tab1, #tab2, #tab3, #tab4, #tab5 {
+	 -webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition:.5s ease-in-out;
+}
+
+.processPanel{
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+	transition:.5s ease-in; 
+}
+
+.processPanel:hover {
+	-webkit-transform: translate(10em,0);
+	-moz-transform: translate(10em,0);
+	-o-transform: translate(10em,0);
+	-ms-transform: translate(10,0);
+	transform: translate(10em,0);
+}
+
+#animation2{
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+	transition:.5s ease-in; 
+	animation-delay: 2s;
+}
+
+#animation3{
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+	transition:.5s ease-in; 
+	animation-delay: 2s;
+}
+
+#animation4{
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+	transition:.5s ease-in; 
+	animation-delay: 2s;
+}
+
+#animation2:hover, #animation3:hover, #animation4:hover {
+	-webkit-transform: translate(50em,0);
+	-moz-transform: translate(50em,0);
+	-o-transform: translate(50em,0);
+	-ms-transform: translate(50,0);
+	transform: translate(50em,0);
+}
+
+
+.slideOutTabLeft:hover {
+	-webkit-transform: translate(50em,0);
+	-moz-transform: translate(50em,0);
+	-o-transform: translate(50em,0);
+	-ms-transform: translate(50,0);
+	transform: translate(50em,0);
+
+
+}
+ .slideOutTabRight:hover {
+	-webkit-transform: translate(-50em,0);
+	-moz-transform: translate(-50em,0);
+	-o-transform: translate(-50em,0);
+	-ms-transform: translate(-50em,0);
+	transform: translate(-50em,0);
+} 
+
+.lightbox {
+	display: none;
+	position: absolute; 
+	top: 0; 
+	width: 100%; 
+	height: 100%; 
+	text-align: center;
+	background-color: rgba(0,0,0,0.95);
+}
+
+.close-lightbox {
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+
+.show-lightbox { display: block; }
+
+video {
+	width: 80%;
+	margin-top: 10%;
+	border: thin solid #949393;
+}
